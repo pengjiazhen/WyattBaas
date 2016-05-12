@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_white"
+    android:orientation="vertical">
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="@color/login_bg_color"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_view1"
+        android:layout_width="match_parent"
+        android:background="@color/base_white"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_height="40dip" >
+
+        <TextView
+            android:id="@+id/training_tv_tian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dip"
+            android:text="第01天"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/training_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@id/training_tv_tian"
+            android:text="2015-12-12"
+            android:textColor="@color/base_grey"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/training_iv_isComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dip"
+            android:background="@drawable/training_yes" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/wt_listview_divider_color"/>
+   </RelativeLayout>
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="40dip"
+	     android:background="@color/base_white"
+	     android:descendantFocusability="blocksDescendants"
+	    android:visibility="visible">
+
+	    
+
+	    <TextView
+	        android:id="@+id/training_tv_distance"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="8dip"
+	        android:text="距离:1.1km"
+	        android:background="@drawable/training_text_bg"
+	        android:textSize="12sp" />
+
+	    <TextView
+	        android:id="@+id/training_tv_runkaluli"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_centerHorizontal="true"
+	        android:text="消耗卡路里:1505"
+	        android:background="@drawable/training_text_bg"
+	        android:textSize="12sp" />
+	    
+	    <ImageView
+	        android:id="@+id/training_iv_caidan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="8dip"
+	        android:focusable="false"
+	        android:background="@drawable/training_bullets" />
+
+	</RelativeLayout>
+   
+</LinearLayout>

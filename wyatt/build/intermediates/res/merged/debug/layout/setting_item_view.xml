@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/item_height" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleAndContentTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_eight"
+        android:layout_marginTop="@dimen/spacing_eight"
+        android:text="@string/open_sound_title"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        style="@style/TipsOrModerateTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="@dimen/spacing_eight"
+        android:text="@string/open_sound_tip"
+        android:textColor="#88000000" />
+
+    <com.xyc.wyatt.view.SlideButton
+        android:id="@+id/sb_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/spacing_eight"
+        android:clickable="true"
+        
+        />
+
+</RelativeLayout>

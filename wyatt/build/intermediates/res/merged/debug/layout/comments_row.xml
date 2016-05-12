@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:makeramen="http://schemas.android.com/apk/res/com.xyc.wyatt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <com.xyc.wyatt.view.RoundedImageView
+        android:id="@+id/avatar"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_margin="8dp"
+        android:src="@drawable/avatar_default"
+        makeramen:riv_border_width="0dip"
+        makeramen:riv_corner_radius="100dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+
+        <TextView
+            android:id="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="sfs:"
+            android:textSize="@dimen/medium_text_size" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="挺好的，看好你哦"
+            android:textSize="@dimen/small_text_size" />
+
+        <TextView
+            android:id="@+id/ctime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="2dp"
+            android:text="2012.12.30"
+            android:textSize="@dimen/small_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

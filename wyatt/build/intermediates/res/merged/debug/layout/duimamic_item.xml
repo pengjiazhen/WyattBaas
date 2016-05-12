@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:makeramen="http://schemas.android.com/apk/res/com.xyc.wyatt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.xyc.wyatt.view.RoundedImageView
+            android:id="@+id/avatar"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/avatar_default"
+            makeramen:riv_border_width="0dip"
+            makeramen:riv_corner_radius="100dip" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/avatar"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/avatar"
+            android:text="smile"
+            android:textColor="#000000"
+            android:textSize="@dimen/small_text_size" />
+
+        <TextView
+            android:id="@+id/dtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/avatar"
+            android:text="gfgdgdf"
+            android:textSize="@dimen/small_text_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="afadfjladjl"
+            android:textSize="@dimen/small_text_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <com.xyc.wyatt.view.WTImageView
+            android:id="@+id/map"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/picdefault" />
+
+        <com.xyc.wyatt.view.WTImageView
+            android:id="@+id/picture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@id/map"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/map"
+            android:src="@drawable/picdefault" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/forwarding"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/repostbutton_dynamic_normal_night" />
+
+        <ImageView
+            android:id="@+id/comments"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/comment_video_normal" />
+
+        <TextView
+            android:id="@+id/praise_num"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignBottom="@id/comments"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/comments"
+            android:text="8"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/small_middle_text_size" />
+
+        <ImageView
+            android:id="@+id/praise"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignBottom="@id/praise_num"
+            android:layout_margin="2dp"
+            android:layout_toLeftOf="@id/praise_num"
+            android:clickable="true"
+            android:src="@drawable/dynamic_telephone" />
+    </RelativeLayout>
+
+</LinearLayout>

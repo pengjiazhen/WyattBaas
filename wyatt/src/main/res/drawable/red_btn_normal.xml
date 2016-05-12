@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 颜色 -->
+    <solid android:color="@color/red_button_normal" />
+    <!-- 边框 -->
+    <stroke
+        android:width="@dimen/red_button_stroke"
+        android:color="@color/red_button_stroke" />
+    <!-- 边距 -->
+    <padding
+        android:left="@dimen/red_button_padding"
+        android:right="@dimen/red_button_padding" />
+    
+
+</shape>

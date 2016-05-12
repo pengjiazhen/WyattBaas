@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <!-- 字体大小 -->
+    <dimen name="micro_text_size">12sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="small_middle_text_size">16sp</dimen>
+    <dimen name="medium_text_size">18sp</dimen>
+    <dimen name="large_text_size">22sp</dimen>
+    <dimen name="thirtyheight">30dp</dimen>
+    <dimen name="eightyheight">80dp</dimen>
+    <dimen name="fortyheight">40dp</dimen>
+    <dimen name="spacing_eight">8dp</dimen>
+    <dimen name="spacing_four">4dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="item_height">48dp</dimen>
+    <dimen name="text_button_size">16.0sp</dimen>
+    <dimen name="text_commen_size">14.0sp</dimen>
+    <dimen name="text_tips_size">12.0sp</dimen>
+    <dimen name="text_tips_light_size">10.0sp</dimen>
+    <dimen name="text_actionbar_size">18.0sp</dimen>
+    <dimen name="public_divide_line">1.0px</dimen>
+    <dimen name="public_divide_heavy_line">2.0px</dimen>
+    <dimen name="dialog_width">300.0px</dimen>
+    <dimen name="dialog_head_height">54.0dip</dimen>
+    <dimen name="dialog_item_height">45.0dip</dimen>
+    <dimen name="dialog_vertial_space">15.0dip</dimen>
+    <dimen name="dialog_text2arrow">10.0dip</dimen>
+    <dimen name="dialog_infolable_minwidth">120.0dip</dimen>
+    <dimen name="dialog_detailselect_item_left_space">30.0dip</dimen>
+    <dimen name="dialog_detailselect_item_right_space">20.0dip</dimen>
+    <dimen name="dialog_input_vertial_space">15.0dip</dimen>
+    <dimen name="dialog_inputbottom2title_height">50.0dip</dimen>
+    <dimen name="dialog_input_paddingtop">27.0dip</dimen>
+    <dimen name="dialog_icon2text">10.0dip</dimen>
+    <dimen name="dialog_logout_top_space">30.0dip</dimen>
+    <dimen name="dialog_logout_vertial_space">30.0dip</dimen>
+    <dimen name="dialog_logout_height">40.0dip</dimen>
+    <dimen name="dialog_newversion_leftspace">3.0dip</dimen>
+    <dimen name="dialog_push_childdeve_vertial_space">10.0dip</dimen>
+    <dimen name="dialog_push_tipinfo_height">30.0dip</dimen>
+    <dimen name="dialog_title_height">45.0dip</dimen>
+    <dimen name="dialog_button_height">48.0dip</dimen>
+    
+    <dimen name="persinalinfo_logout_top_space">30.0dip</dimen>
+    <dimen name="persinalinfo_logout_vertial_space">30.0dip</dimen>
+    <dimen name="persinalinfo_logout_height">40.0dip</dimen>
+    
+    <dimen name="red_button_padding">20dp</dimen>
+    <dimen name="red_button_radius">32dp</dimen>
+    <dimen name="red_button_stroke">1px</dimen>
+	<dimen name="button_textsize">16dp</dimen>
+</resources>

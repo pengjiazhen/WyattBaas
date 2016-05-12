@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WyattBaas.iml" filepath="$PROJECT_DIR$/WyattBaas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aValidations/aValidations.iml" filepath="$PROJECT_DIR$/aValidations/aValidations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wyatt/wyatt.iml" filepath="$PROJECT_DIR$/wyatt/wyatt.iml" />
+    </modules>
+  </component>
+</project>

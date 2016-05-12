@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\ShareSDK-SinaWeibo-2.6.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a080389406bbb3b21310f84df77d7391f355addc">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.6.3_9fa6112d5951b427f6ee02cc65f6893dcfc316b3.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a8b6c0afdd71b3a590f239f0d0560bb6a963952a">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\instant-run-bootstrap_9d7c8ee907d38fbd4a456f426b252dc76cbc8eb7.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_f1711e13039396457144a52f53124dbeeea84dbb.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\ShareSDK-QQ-2.6.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="496e163b2b242a83885f065f193810611ada229a">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.6.3_8b97311d5acfd95966b044a56b7edc5fff37c2f2.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\okio-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\okio-1.4.0_6db7b06f3b56fdb010a5e9c6357b460b91f1eb32.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_1588ca21651fcaa1fd80893fd4f7a2536f1c2fd6.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\ShareSDK-Wechat-Core-2.6.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="33861299042fa89a53c56f3a15c37ba865a7d2e9">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.6.3_e2fcd474965060de1408ce7d1df30255ee2e2daf.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\jpush-sdk-release1.8.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="99b4fcf27b1215c18bf2d467538bc4206d8b1bcf">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\jpush-sdk-release1.8.2_ae3dacee96ce2192674813af34abaf369b1527a5.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\universal-image-loader-1.8.4-with-sources.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="eba3ec78458fcb9bdd8bb7eff1a2f6f26f8fa00a">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.4-with-sources_9bd58b8d5160df21fe56aaeb06e96ddeb32b929a.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\ShareSDK-TencentWeibo-2.6.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="dc1a56b913899a11a37c47572a43e45d1d8d9a85">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\ShareSDK-TencentWeibo-2.6.3_9da50c1e2b24b5b4eea40d1fd5c237c7ae26ac98.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\com.actionbarsherlock-actionbarsherlock-4.4.0_0ef2b86982ad4d35b4e5030c8e369167396f42f4.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="bb71d6cfe5166741a0a99e85471a8b90e97f5228">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\BaiduLBS_Android_bc76b31fbd87a505b52e172a3cd2809334a90584.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a269191b7588f11aa7a6a0dd34d11c6c271c6888">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\instant-run_8e77329f8d7e5b78bba31c80ac8af1c82c231b29.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\ShareSDK-Core-2.6.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d072ff710fbddf800658d07d735ca3c5464ea04f">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.6.3_85aaa3859818228916b15186c174b1bb2d1c0ca2.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\okhttp-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\okhttp-2.4.0_7ee7b3094503994eabac57971b52c31eb3f98af3.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_3b3740e94f1ea05a1c8c38e4dab8afe51282f133.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\ShareSDK-QZone-2.6.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="32748d59aaaf19ba26918dfecb9e2c35c80955fb">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.6.3_aeb5b58c6898e4c1ad07977c8e961f41a2d24bac.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\MobLogCollector.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0488dc80a5addc72b2fcb515f792a130c164ab5f">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\MobLogCollector_4ee5ceb2b4f7c4d4b18db7107af922ede9358831.jar" />
+    </item>
+    <item
+        jar="D:\androidTools\adt-bundle-64\adt_64\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_5c32d6abfd84a4f534d926d1f5b5ba5434f22a8a.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\fastjson-1.1.24.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c1f5317e11bd2638095549d4806b0753dfeb2249">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\fastjson-1.1.24_4f8b2daa631f760f55a86f8a25b1b4345666fec0.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\afinal_0.5_bin.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="89729e3bc7f76890363b10e1e0dc5e57964c7807">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\afinal_0.5_bin_4c8cd98c884c9839159fab4d784164292e754691.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\ShareSDK-Wechat-Moments-2.6.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2f743f1144aac80632be6d2ab76bff091a447b75">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.6.3_d357937e60c764896f05bfd9d015fb0c233b6035.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\domob_android_sdk.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b6f584e72d5734e451de03d10bbb5e07baeb11fc">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\domob_android_sdk_d90b0671582d3f7f29daf82336ecfc21527033c9.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\BmobSDK_V3.4.5_1111.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="44e559d18fd5a4826b0a4c0354308213e4f658a2">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\BmobSDK_V3.4.5_1111_e3b7cf45eec8382b9098ddc79e05631194bea478.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\MobTools.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23e791d96579e8c56fd11f1912130ff93c2d6289">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\MobTools_f410779c7d1254293e55bf44e649cd34c860a93a.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\locSDK_5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="389047997db28fcb848dc4247c5590a08b7ff769">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\locSDK_5.2_121b2e332e1f626b863afd22d7f106e4724e169b.jar" />
+    </item>
+    <item
+        jar="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\libs\Bmob_Push_V0.6beta_20150408.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db21ec99c2c7bf91c67bf80f5c5c49a92dd0562e">
+        <dex dex="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\intermediates\pre-dexed\debug\Bmob_Push_V0.6beta_20150408_462796358526a174f314df973fde3b5d120d85a9.jar" />
+    </item>
+
+</items>

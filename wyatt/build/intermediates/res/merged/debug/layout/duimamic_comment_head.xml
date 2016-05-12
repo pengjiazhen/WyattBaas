@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:makeramen="http://schemas.android.com/apk/res/com.xyc.wyatt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.xyc.wyatt.view.RoundedImageView
+            android:id="@+id/c_avatar"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/avatar_default"
+            makeramen:riv_border_width="0dip"
+            makeramen:riv_corner_radius="100dip" />
+
+        <TextView
+            android:id="@+id/c_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/c_avatar"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/c_avatar"
+            android:text="smile"
+            android:textColor="#000000"
+            android:textSize="@dimen/small_text_size" />
+
+        <TextView
+            android:id="@+id/c_dtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/c_username"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/c_avatar"
+            android:text="gfgdgdf"
+            android:textSize="@dimen/small_text_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/c_runfeel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="afadfjladjl"
+            android:textSize="@dimen/small_text_size" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <com.xyc.wyatt.view.WTImageView
+            android:id="@+id/c_map"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:clickable="true"
+            android:src="@drawable/picdefault" />
+
+        <com.xyc.wyatt.view.WTImageView
+            android:id="@+id/c_picture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@id/c_map"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/c_map"
+            android:clickable="true"
+            android:src="@drawable/picdefault" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:text="评论:"
+        android:textSize="@dimen/medium_text_size" />
+
+</LinearLayout>

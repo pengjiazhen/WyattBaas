@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55.0dp"
+    android:background="@color/wt_title_bg"
+    android:id="@+id/actionbarLayoutId" >
+    <ImageButton
+        android:id="@+id/imgRichpushBtnBack"
+        android:background="@drawable/actionbar_back_normal"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   
+    <TextView
+        android:id="@+id/tvRichpushTitle"
+        android:text="标题"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dp"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@id/imgRichpushBtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false" />
+
+</RelativeLayout>

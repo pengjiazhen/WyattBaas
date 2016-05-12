@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_music"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_weight="0.23"
+            android:gravity="center_vertical"
+            android:text="播放背景音乐"
+            android:textSize="@dimen/small_text_size" />
+
+        <Switch
+            android:id="@+id/st_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_sound"
+            android:layout_width="0dip"
+            android:layout_height="50.0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="开启语音提示"
+            android:textSize="@dimen/small_text_size" />
+
+        <Switch
+            android:id="@+id/st_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_weight="0.23"
+            android:gravity="center_vertical"
+            android:text="推送通知"
+            android:textSize="@dimen/small_text_size" />
+
+        <ImageView
+            android:id="@+id/iv_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.06"
+            android:src="@drawable/search_course_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_weight="0.23"
+            android:gravity="center_vertical"
+            android:text="版本更新"
+            android:textSize="@dimen/small_text_size" />
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.06"
+            android:src="@drawable/search_course_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_yuedong"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_weight="0.23"
+            android:gravity="center_vertical"
+            android:text="关于悦动"
+            android:textSize="@dimen/small_text_size" />
+
+        <ImageView
+            android:id="@+id/iv_yuedong"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dip"
+            android:layout_weight="0.06"
+            android:src="@drawable/search_course_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_bluck"
+            android:layout_width="320.0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login_btn_bg"
+            android:paddingBottom="1dip"
+            android:text="退出登录"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

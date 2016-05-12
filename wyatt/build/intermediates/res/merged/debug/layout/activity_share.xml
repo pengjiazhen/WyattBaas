@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <com.xyc.wyatt.view.KeyboardListenEdittext
+                android:id="@+id/sh_content"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="13dip"
+                android:background="@null"
+                android:gravity="left|top"
+                android:hint="惊天跑的"
+                android:maxHeight="140dip"
+                android:minHeight="80dip" >
+      </com.xyc.wyatt.view.KeyboardListenEdittext>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/sh_map"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/run_map" />
+
+        <ImageView
+            android:id="@+id/sh_picture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@id/sh_map"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/sh_map"
+            android:src="@drawable/add_picture" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        
+        >
+     <TextView
+         android:layout_alignParentBottom="true"
+        android:id="@+id/tv_share"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="分享"
+        android:textColor="#ffffff"
+        
+       />
+     </RelativeLayout>
+</LinearLayout>

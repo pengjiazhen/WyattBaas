@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/login_bg_color" >
+
+        <com.xyc.wyatt.view.XListView
+            android:id="@+id/wyattcirleList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           
+            android:fadingEdge="none"
+            android:fastScrollEnabled="true" />
+    </RelativeLayout>
+
+</LinearLayout>

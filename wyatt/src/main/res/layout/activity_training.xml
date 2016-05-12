@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg_color"
+     >
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/login_bg_color">
+    <com.xyc.wyatt.view.MyListView
+        android:id="@+id/training_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:dividerHeight="1px"
+         android:divider="@color/wt_listview_divider_color"
+        android:listSelector="@android:color/white">
+    </com.xyc.wyatt.view.MyListView>
+    </RelativeLayout>
+</LinearLayout>

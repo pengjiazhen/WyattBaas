@@ -1,0 +1,494 @@
+[
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__btn_cab_done_default_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__btn_cab_done_default_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_bg1.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\loading_bg1.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_qq.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\login_qq.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_ab_back_holo_dark.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__textfield_search_selected_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dynamic_telephone.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\dynamic_telephone.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sliding_menu_icon.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\sliding_menu_icon.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_cab_done_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_pressed_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sliding_menu_icon_close.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\sliding_menu_icon_close.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_focused_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_search_api_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_default_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_richpush_actionbar_back.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\ic_richpush_actionbar_back.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_choose2.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\login_choose2.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_disabled_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_ab_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_down.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_longpressed_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_stacked_transparent_dark_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_stacked_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_transparent_light_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__cab_background_top_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_stacked_solid_dark_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_stacked_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_cab_done_holo_dark.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_cab_done_holo_dark.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__tab_selected_pressed_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__btn_cab_done_focused_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__btn_cab_done_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_voice_search.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_voice_search.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ad.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\ad.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\richpush_btn_selector.xml",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\richpush_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_ab_back_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_solid_shadow_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_solid_shadow_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_choose1.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\login_choose1.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_menu_share_holo_dark.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_search.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_search.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_solid_light_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_solid_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_share_pack_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__menu_dropdown_panel_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__menu_dropdown_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\training_bullets.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\training_bullets.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_wechat.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\login_wechat.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_disabled_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_ab_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tip_bg.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\tip_bg.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\password_close.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\password_close.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_bg.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\loading_bg.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_selector_disabled_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_menu_share_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_activated_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_activated_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\run_man_32.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\run_man_32.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__progress_bg_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__progress_bg_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_pressed_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_ab_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\password_open.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\password_open.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_focused_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_ab_focused_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\avatar_default.jpg",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\avatar_default.jpg"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add_picture.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\add_picture.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__menu_dropdown_panel_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__menu_dropdown_panel_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__textfield_search_default_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__textfield_search_default_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_go_search_api_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_go_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__textfield_search_right_default_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__cab_background_bottom_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__cab_background_bottom_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_focused_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__textfield_search_selected_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__textfield_search_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sk_text.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\sk_text.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_go.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_go.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_pressed_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__progress_secondary_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_default_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_ab_default_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_48_inner_holo.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_48_inner_holo.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_voice_search_api_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_voice_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_bottom_solid_inverse_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_bottom_solid_inverse_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_clear_search_api_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_clear_search_api_disabled_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__cab_background_top_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__cab_background_top_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__btn_cab_done_pressed_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__btn_cab_done_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__textfield_search_right_selected_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__textfield_search_right_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__progress_secondary_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__progress_secondary_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_weibo.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\login_weibo.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_stacked_transparent_light_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_stacked_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\training_no.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\training_no.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\feedback_upload_icon_normal.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\feedback_upload_icon_normal.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__textfield_search_right_selected_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__textfield_search_right_selected_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_ab_pressed_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_solid_dark_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__tab_unselected_pressed_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_commit_search_api_holo_light.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__btn_cab_done_focused_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__btn_cab_done_focused_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_bottom_solid_light_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_bottom_solid_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_divider_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_divider_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__progress_primary_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__progress_primary_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\yd.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\yd.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__toast_frame.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__toast_frame.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_clear_normal.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_clear_normal.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_clear_disabled.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_clear_disabled.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_transparent_dark_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\code_weixi.jpg",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\code_weixi.jpg"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\head_image_1.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\head_image_1.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_bottom_transparent_light_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_bottom_transparent_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_bottom_solid_dark_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_bottom_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_menu_moreoverflow_normal_holo_dark.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_menu_moreoverflow_normal_holo_dark.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\return_to_main.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\return_to_main.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_stacked_solid_light_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_stacked_solid_light_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_share_pack_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_share_pack_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__list_divider_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__list_divider_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__progress_bg_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__tab_selected_focused_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pop_bg.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\pop_bg.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ic_commit_search_api_holo_dark.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ic_commit_search_api_holo_dark.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\run_man_24.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\run_man_24.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__tab_selected_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__btn_cab_done_pressed_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__btn_cab_done_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__progress_primary_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_richpush_actionbar_divider.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\ic_richpush_actionbar_divider.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__textfield_search_right_default_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__textfield_search_right_default_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__textfield_search_default_holo_dark.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__textfield_search_default_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__ab_bottom_transparent_dark_holo.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\training_yes.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\training_yes.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dialog_loading.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\dialog_loading.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__btn_cab_done_default_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__btn_cab_done_default_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__cab_background_bottom_holo_light.9.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__cab_background_bottom_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abs__spinner_48_outer_holo.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\exploded-aar\\com.actionbarsherlock\\actionbarsherlock\\4.4.0\\res\\drawable-hdpi\\abs__spinner_48_outer_holo.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sliding_menu_icon_open.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-hdpi\\sliding_menu_icon_open.png"
+    }
+]

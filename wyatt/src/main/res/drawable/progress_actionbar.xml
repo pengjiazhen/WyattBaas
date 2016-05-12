@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <rotate
+            android:drawable="@drawable/dialog_loading"
+            android:fillAfter="true"
+            android:fromDegrees="0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="1080" />
+    </item>
+ <!-- <item>
+        <rotate
+            android:drawable="@drawable/refreshicon_titlebar"
+            android:fillAfter="true"
+            android:fromDegrees="1440"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="2220" />
+    </item>  -->
+
+</layer-list>

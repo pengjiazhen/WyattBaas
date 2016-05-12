@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip" >
+
+        <com.xyc.wyatt.view.RoundImageView
+            android:id="@+id/riv_avatar"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:src="@drawable/avatar_default" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dip"
+            android:layout_toEndOf="@+id/riv_avatar"
+            android:text="@string/username_default"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip" >
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dip"
+            android:layout_toEndOf="@+id/iv2"
+            android:text="@string/training_day"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip" >
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dip"
+            android:layout_toEndOf="@+id/iv3"
+            android:text="@string/traininghistory"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip" >
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dip"
+            android:layout_toEndOf="@+id/iv4"
+            android:text="@string/wyattcirle"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dip" >
+
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dip"
+            android:layout_toEndOf="@+id/iv5"
+            android:text="@string/setting"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

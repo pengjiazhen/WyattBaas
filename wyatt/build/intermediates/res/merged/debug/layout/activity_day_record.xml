@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg_color" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 日期 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="8dip"
+                android:text="@string/day_record_date"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="@color/base_white" >
+
+            <!-- 日期id -->
+
+            <TextView
+                android:id="@+id/tv_day_record_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="8dip" />
+        </RelativeLayout>
+
+        <!-- 距离 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="8dip"
+                android:text="@string/day_record_juli"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="@color/base_white" >
+
+            <!-- 距离id -->
+
+            <TextView
+                android:id="@+id/tv_day_record_juli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="8dip" />
+        </RelativeLayout>
+
+        <!-- 卡路里 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="8dip"
+                android:text="@string/day_record_kaluli"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="@color/base_white" >
+
+            <!-- 卡路里id -->
+
+            <TextView
+                android:id="@+id/tv_day_record_kaluli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="8dip" />
+        </RelativeLayout>
+        <!-- 运动路径 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="8dip"
+                android:text="@string/day_record_map"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/base_white" >
+
+            <!-- 运动路径id -->
+
+            <com.xyc.wyatt.view.WTImageView
+                android:id="@+id/riv_day_record_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

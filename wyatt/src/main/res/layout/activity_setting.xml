@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:makeramen="http://schemas.android.com/apk/res/com.xyc.wyatt"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/wt_bg_color"
+    android:scrollbars="none" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_usermessage_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height"
+                android:background="@drawable/grey_item_bg"
+                android:gravity="center_vertical"
+                android:padding="@dimen/spacing_eight" >
+
+                <com.xyc.wyatt.view.RoundedImageView
+                    android:id="@+id/riv_headimage"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/avatar_default"
+                    makeramen:riv_border_width="0dip"
+                    makeramen:riv_corner_radius="100dip" />
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    style="@style/CenterSizeDarkGreyTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@+id/riv_headimage"
+                    android:gravity="center_vertical"
+                    android:text="@string/nickname" />
+
+                <ImageView
+                    android:id="@+id/iv_right_user_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/arrow_all_pressed" />
+
+                <TextView
+                    android:id="@+id/tv_login"
+                    style="@style/CenterSizeDarkGreyTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="@dimen/spacing_eight"
+                    android:layout_toLeftOf="@+id/iv_right_user_info"
+                    android:gravity="center_vertical"
+                    android:text="@string/login_click" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/public_divide_heavy_line"
+                android:background="@color/public_divide_heavy_line" />
+
+            
+            <com.xyc.wyatt.view.SettingItemView
+                android:id="@+id/siv_sound_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                makeramen:setting_desc_off="语音提示关闭"
+                makeramen:setting_desc_on="语音提示开启"
+                makeramen:setting_title="设置语音提示" >
+            </com.xyc.wyatt.view.SettingItemView>
+
+            <com.xyc.wyatt.view.SettingItemView
+                android:id="@+id/siv_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                makeramen:setting_desc_off="背景音乐关闭"
+                makeramen:setting_desc_on="背景音乐开启"
+                makeramen:setting_title="设置背景音乐" >
+            </com.xyc.wyatt.view.SettingItemView>
+            <!-- <RelativeLayout
+                android:id="@+id/rl_sound_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height"
+                android:background="@drawable/grey_item_bg"
+                android:paddingLeft="@dimen/spacing_eight"
+                android:paddingRight="@dimen/spacing_eight" >
+
+                <TextView
+                    android:id="@+id/tv_title_sound_tip"
+                    style="@style/TitleAndContentTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_eight"
+                    android:text="@string/open_sound_title"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tv_desc_sound_tip"
+                    style="@style/TipsOrModerateTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title_sound_tip"
+                    android:text="@string/open_sound_tip"
+                    android:textColor="#88000000" />
+
+                <com.xyc.wyatt.view.SlideButton
+                    android:id="@+id/sb_status_sound_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true" />
+            </RelativeLayout> -->
+
+            <RelativeLayout
+                android:id="@+id/rl_suggestion"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height"
+                android:background="@drawable/grey_item_bg"
+                android:paddingLeft="@dimen/spacing_eight"
+                android:paddingRight="@dimen/spacing_eight" >
+
+                <TextView
+                    style="@style/TitleAndContentTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/suggestion" />
+
+                <ImageView
+                    android:id="@+id/iv_right_suggestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow_all_pressed" />
+            </RelativeLayout>
+
+            <!-- <RelativeLayout
+                android:id="@+id/rl_version_update"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height"
+                android:background="@drawable/grey_item_bg"
+                android:paddingLeft="@dimen/spacing_eight"
+                android:paddingRight="@dimen/spacing_eight" >
+
+                <TextView
+                    android:id="@+id/tv_title_update"
+                    style="@style/TitleAndContentTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_eight"
+                    android:text="@string/open_sound_title"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tv_desc_update"
+                    style="@style/TipsOrModerateTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_title_update"
+                    android:text="@string/open_sound_tip"
+                    android:textColor="#88000000" />
+
+                <com.xyc.wyatt.view.SlideButton
+                    android:id="@+id/sb_status_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true" />
+            </RelativeLayout> -->
+
+            
+            <com.xyc.wyatt.view.SettingItemView
+                android:id="@+id/siv_version_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                makeramen:setting_desc_off="自动检查更新关闭"
+                makeramen:setting_desc_on="自动检查更新开启"
+                makeramen:setting_title="设置自动检查更新" >
+            </com.xyc.wyatt.view.SettingItemView>
+
+            <RelativeLayout
+                android:id="@+id/rl_give_mark"
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:layout_height="@dimen/item_height"
+                android:background="@drawable/grey_item_bg"
+                android:paddingLeft="@dimen/spacing_eight"
+                android:paddingRight="@dimen/spacing_eight" >
+
+                <TextView
+                    style="@style/TitleAndContentTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/give_mark" />
+
+                <ImageView
+                    android:id="@+id/iv_right_mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow_all_pressed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_about"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/item_height"
+                android:background="@drawable/grey_item_bg"
+                android:paddingLeft="@dimen/spacing_eight"
+                android:paddingRight="@dimen/spacing_eight" >
+
+                <TextView
+                    style="@style/TitleAndContentTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/about" />
+
+                <ImageView
+                    android:id="@+id/iv_right_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow_all_pressed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_logout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/persinalinfo_logout_height"
+                android:layout_marginBottom="@dimen/persinalinfo_logout_top_space"
+                android:layout_marginLeft="@dimen/persinalinfo_logout_vertial_space"
+                android:layout_marginRight="@dimen/persinalinfo_logout_vertial_space"
+                android:layout_marginTop="@dimen/persinalinfo_logout_top_space"
+                android:background="@drawable/setting_logout_bg"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/logout_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/logout_label"
+                    android:textColor="@color/wt_red"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:textSize="@dimen/text_button_size" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

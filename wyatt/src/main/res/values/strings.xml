@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">悦动</string>
+    <string name="about">关于悦动</string>
+    <string name="avatar">头像</string>
+    <string name="age">年龄</string>
+    <string name="apprecomment">应用推荐</string>
+    <string name="complete">完成</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="heigth">身高</string>
+    <string name="action_settings">Settings</string>
+    <string name="username_default">登录</string>
+    <string name="training_day">训练日</string>
+    <string name="traininghistory">我的运动记录</string>
+    <string name="wyattcirle">悦动圈</string>
+    <string name="setting">设置</string>
+    <string name="run_spend">平均速度</string>
+    <string name="run_distance">运动距离</string>
+    <string name="run_time">运动时间</string>
+    <string name="run_calorie">消耗卡路里</string>
+    <string name="run_start">开始运动</string>
+    <string name="run_stop">停止</string>
+    <string name="run_countinue">继续</string>
+    <string name="run_share">分享</string>
+    <string name="run_pause">暂停</string>
+    <string name="run_save">保存运动数据</string>
+    <string name="exit_app">确定要退出悦动?</string>
+    <string name="dialog_comfirm">确定</string>
+    <string name="dialog_cancle">取消</string>
+    <string name="login_btn_login">登录</string>
+    <string name="login_click">点击登录</string>
+    <string name="login_btn_register">注册</string>
+    <string name="login_password">密码</string>
+    <string name="login_username">用户名</string>
+    <string name="login_tv_regesiter">注册>>></string>
+    <string name="login_password2">确认密码</string>
+    <string name="logout_label">退出登录</string>
+    <string name="man">男</string>
+    <string name="nickname">昵称</string>
+    <string name="day_record_date">日期</string>
+    <string name="day_record_juli">运动距离</string>
+    <string name="day_record_kaluli">消耗卡路里</string>
+    <string name="day_record_map">运动路径</string>
+    <string name="fromxc">从手机相册</string>
+    <string name="fromcam">拍照</string>
+    <string name="give_mark">给我评分</string>
+    <string name="open_sound_title">是否打开语音提示</string>
+    <string name="open_sound_tip">语音提示已开</string>
+    <string name="serverurl">http://172.31.196.236:8080/wtweb/updateinfo.json</string>
+    <string name="suggestion">意见反馈</string>
+    <string name="sex">性别</string>
+    <string name="saving">正在保存数据</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="versionupdate">版本更新</string>
+    <string name="weight">体重</string>
+    <string name="wt_time_yesterday">昨天</string>
+    <string name="woman">女</string>
+    <string name="updateavatar">头像</string>
+    
+    <!-- 校验错误提示，都是以e_开头_hint结尾 -->
+    <string name="e_username_hint">用户名为7-12个字母或数字</string>
+    <string name="e_password_hint">密码为7-12个字母或数字</string>
+    
+    <!-- EditText Max Length -->
+    <string name="max_length_username">12</string>
+    <string name="max_length_password">12</string>
+
+    <!-- 常规 -->
+    <string name="edit_text_type">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+</resources>

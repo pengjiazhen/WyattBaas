@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.xyc.wyatt.view.KeyboardListenEdittext
+        android:id="@+id/cet_content"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="13dip"
+        android:background="@null"
+        android:gravity="left|top"
+        android:hint="骚年,哪有不爽,来喷吧！"
+        android:maxHeight="140dip"
+        android:minHeight="80dip" >
+    </com.xyc.wyatt.view.KeyboardListenEdittext>
+
+    <EditText
+        android:id="@+id/et_opinion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请留下电话，方便答疑解惑" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bg"
+        android:onClick="onSubmit"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

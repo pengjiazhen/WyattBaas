@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+     <solid android:color="#ffffff"/> //设置文本框内部颜色为透明
+    //也可以设置其他的颜色
+   
+  
+    <stroke android:color="#eeeeee" android:width="2px"/>
+       //设置边框的颜色, 设置宽度2px
+
+</shape>

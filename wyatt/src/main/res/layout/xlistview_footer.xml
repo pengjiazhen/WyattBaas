@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     >
+   <!--  android:background="#f2f2f2" -->
+
+    <RelativeLayout
+        android:id="@+id/xlistview_footer_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+           
+        
+        
+        <ProgressBar
+            android:id="@+id/xlistview_footer_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/xlistview_footer_hint_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="14sp"
+            android:textColor="#404040"
+            />
+        
+<!--           <ImageView -->
+<!--                 android:id="@+id/foot_load_more_view_arrow" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_toLeftOf="@id/xlistview_footer_hint_textview" -->
+<!--                 android:layout_centerVertical="true" -->
+<!--                 android:layout_marginRight="10dip" -->
+<!--                 android:src="@drawable/xlistview_arrow" /> -->
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

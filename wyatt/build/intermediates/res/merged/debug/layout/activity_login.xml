@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/login_bg_color" >
+
+    <LinearLayout
+        android:id="@+id/ll_view1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30.0dip"
+        android:background="@color/base_white"
+        android:orientation="vertical" >
+
+        <!-- 用户名 -->
+
+        <RelativeLayout
+            android:id="@+id/re_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="match_parent"
+                android:layout_height="45.0dip"
+                android:background="@null"
+                android:hint="@string/login_username"
+                android:digits="@string/edit_text_type"
+                android:maxLength="@string/max_length_username"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="50.0dip"
+                android:singleLine="true"
+                android:text=""
+                android:textSize="12.0sp" />
+            <ImageView
+                android:id="@+id/iv_login_choose"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:layout_marginRight="10dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:focusable="false"
+                android:background="@drawable/login_choose1" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_below="@id/et_login_username"
+                android:background="@color/public_item_pressed" />
+        </RelativeLayout>
+        <!-- 密码 -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/re_username">
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="330dip"
+                android:layout_height="45.0dip"
+                android:background="@null"
+                android:hint="@string/login_password"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10dip"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:maxLength="@string/max_length_password"
+                android:digits="@string/edit_text_type"            
+                android:text=""
+                android:textSize="12.0sp" />
+
+            <ImageView
+                android:id="@+id/iv_see_password"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:layout_marginRight="10dip"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:focusable="false"
+                android:background="@drawable/password_open" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_view1"
+        android:layout_marginTop="40.0dip"
+        android:orientation="horizontal" >
+
+        <!-- 登录按钮 -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="300.0dip"
+                android:layout_height="48dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/login_btn_bg"
+                android:text="@string/login_btn_login"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_login"
+        android:layout_marginTop="15dip"
+        android:gravity="right" >
+		<!-- 注册点击 -->
+        <TextView
+            android:id="@+id/tv_regesiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="40dip"
+            android:text="@string/login_tv_regesiter"
+            android:textColor="@color/base_blue"
+            android:textSize="12.0sp" />
+    </LinearLayout>
+	<!-- 第三方接口 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_zhuce" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login_qq" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/login_weibo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/login_wechat" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\search_course_next.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-xxhdpi\\search_course_next.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\picdefault.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-xxhdpi\\picdefault.png"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]

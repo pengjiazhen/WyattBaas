@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\menu\\menu_run.xml",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\menu\\menu_run.xml"
+    },
+    {
+        "merged": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\build\\intermediates\\res\\merged\\debug\\menu\\menu_compelete.xml",
+        "source": "E:\\javaee_android_Workspaces\\gitdemo\\WyattBaas\\wyatt\\src\\main\\res\\menu\\menu_compelete.xml"
+    }
+]

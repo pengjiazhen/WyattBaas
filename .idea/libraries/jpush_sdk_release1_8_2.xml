@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jpush-sdk-release1.8.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wyatt/libs/jpush-sdk-release1.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

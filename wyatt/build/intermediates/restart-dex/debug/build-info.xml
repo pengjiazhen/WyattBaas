@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="xhdpi"
+    format="7"
+    timestamp="33506884384430" >
+
+    <task
+        name="javac"
+        duration="1519" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="1585" />
+    <task
+        name="verifier"
+        duration="442" />
+
+    <artifact
+        location="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\outputs\apk\wyatt-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="33506884384430" >
+        <artifact
+            location="E:\javaee_android_Workspaces\gitdemo\WyattBaas\wyatt\build\outputs\apk\wyatt-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
