@@ -1,16 +1,5 @@
 package com.xyc.wyatt;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
-
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -27,29 +16,21 @@ import android.os.Message;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.UpdateListener;
-import cn.sharesdk.framework.ShareSDK;
-import cn.sharesdk.onekeyshare.OnekeyShare;
 
-import com.actionbarsherlock.view.MenuItem;
-import com.alibaba.fastjson.JSONObject;
 import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
-import com.baidu.location.LocationClientOption.LocationMode;
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BaiduMap.SnapshotReadyCallback;
-import com.baidu.mapapi.map.BitmapDescriptor;
-import com.baidu.mapapi.map.DotOptions;
 import com.baidu.mapapi.map.MapStatus;
 import com.baidu.mapapi.map.MapStatusUpdate;
 import com.baidu.mapapi.map.MapStatusUpdateFactory;
@@ -58,19 +39,20 @@ import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.PolylineOptions;
 import com.baidu.mapapi.model.LatLng;
-import com.mob.tools.utils.Data;
-import com.xyc.wyatt.dao.RunRecordDao;
 import com.xyc.wyatt.domain.RunRecord;
-import com.xyc.wyatt.domain.User;
-import com.xyc.wyatt.domain.WTimePattern;
-import com.xyc.wyatt.manager.CallBack;
 import com.xyc.wyatt.manager.RunRecordManager;
 import com.xyc.wyatt.util.BitmapUtil;
 import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.util.JsonUtil;
-import com.xyc.wyatt.util.MapUtil;
 import com.xyc.wyatt.util.WTContant;
 import com.xyc.wyatt.util.WTUtil;
+
+import java.io.File;
+import java.util.LinkedList;
+import java.util.List;
+
+import cn.bmob.v3.listener.UpdateListener;
+import cn.sharesdk.framework.ShareSDK;
+import cn.sharesdk.onekeyshare.OnekeyShare;
 
 @SuppressLint("SimpleDateFormat")
 public class RuningActivity extends BaseSherlockActivity implements

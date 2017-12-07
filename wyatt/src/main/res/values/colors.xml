@@ -7,7 +7,7 @@
     <color name="abs__bright_foreground_holo_light">@color/white</color>
     <color name="abs__bright_foreground_disabled_holo_dark">@color/white</color>
     <color name="abs__bright_foreground_disabled_holo_light">@color/white</color>
-    <color name="abs__bright_foreground_inverse_holo_dark">@@color/white</color>
+    <color name="abs__bright_foreground_inverse_holo_dark">@color/white</color>
     <color name="abs__bright_foreground_inverse_holo_light">@color/white</color>
     <color name="abs__holo_blue_light">@color/white</color>
    <!-- 金色-->

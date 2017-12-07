@@ -1,24 +1,5 @@
 package com.xyc.wyatt;
 
-import com.actionbarsherlock.view.MenuItem;
-import com.alibaba.fastjson.JSONObject;
-import com.xyc.wyatt.R.menu;
-import com.xyc.wyatt.dao.UserDao;
-import com.xyc.wyatt.manager.CallBack;
-import com.xyc.wyatt.manager.UserManager;
-import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.util.WTContant;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.os.Message;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class NickNameEditActivity extends BaseSherlockActivity {
 

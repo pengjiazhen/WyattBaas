@@ -1,54 +1,40 @@
 package com.xyc.wyatt;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-
-import cn.bmob.v3.listener.FindListener;
-
-import com.actionbarsherlock.view.Window;
-import com.xyc.wyatt.R.color;
-import com.xyc.wyatt.dao.RunRecordDao;
-import com.xyc.wyatt.domain.Dynamic;
-import com.xyc.wyatt.domain.RunRecord;
-import com.xyc.wyatt.domain.WTimePattern;
-import com.xyc.wyatt.manager.CallBack;
-import com.xyc.wyatt.manager.NetMangaer;
-import com.xyc.wyatt.manager.RunRecordManager;
-import com.xyc.wyatt.manager.TrainingManager;
-import com.xyc.wyatt.util.DensityUtil;
-import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.util.JsonUtil;
-import com.xyc.wyatt.util.WTContant;
-import com.xyc.wyatt.util.WTUtil;
-
-import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Message;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AbsListView;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.xyc.wyatt.domain.RunRecord;
+import com.xyc.wyatt.domain.WTimePattern;
+import com.xyc.wyatt.manager.RunRecordManager;
+import com.xyc.wyatt.util.DensityUtil;
+import com.xyc.wyatt.util.GloableValue;
+import com.xyc.wyatt.util.WTContant;
+import com.xyc.wyatt.util.WTUtil;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import cn.bmob.v3.listener.FindListener;
 
 public class TrainingActivity extends BaseActivity {
 
@@ -83,7 +69,7 @@ public class TrainingActivity extends BaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);// sherlockactionbar
+		//requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);// sherlockactionbar
 																	// 转圈
 		super.onCreate(savedInstanceState);
 		mRightView = View.inflate(this, R.layout.activity_training, null);

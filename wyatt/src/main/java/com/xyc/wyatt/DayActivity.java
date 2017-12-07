@@ -1,43 +1,24 @@
 package com.xyc.wyatt;
 
-import java.io.File;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.Window;
+import android.widget.TextView;
+
+import com.xyc.wyatt.dao.RunRecordDao;
+import com.xyc.wyatt.domain.RunRecord;
+import com.xyc.wyatt.domain.WTimePattern;
+import com.xyc.wyatt.manager.RunRecordManager;
+import com.xyc.wyatt.util.WTUtil;
+import com.xyc.wyatt.view.WTImageView;
+
 import java.util.List;
 
 import cn.bmob.v3.listener.FindListener;
 import cn.sharesdk.framework.ShareSDK;
 import cn.sharesdk.onekeyshare.OnekeyShare;
-
-import com.actionbarsherlock.view.MenuItem;
-import com.baidu.mapapi.SDKInitializer;
-import com.xyc.wyatt.dao.RunRecordDao;
-import com.xyc.wyatt.domain.RunRecord;
-import com.xyc.wyatt.domain.WTimePattern;
-import com.xyc.wyatt.manager.RunRecordManager;
-import com.xyc.wyatt.net.WTImageLoader;
-import com.xyc.wyatt.util.BitmapUtil;
-import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.util.WTUtil;
-import com.xyc.wyatt.view.RoundedImageView;
-import com.xyc.wyatt.view.WTImageView;
-
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
-import android.net.Uri;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.view.KeyEvent;
-import android.view.Window;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class DayActivity extends BaseSherlockActivity {
 

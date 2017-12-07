@@ -1,56 +1,31 @@
 package com.xyc.wyatt;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Message;
-import android.provider.MediaStore;
-import android.util.DisplayMetrics;
-import android.util.Log;
-import android.view.Display;
 import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.WindowManager;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
-import cn.bmob.v3.listener.UpdateListener;
 
-import com.actionbarsherlock.view.MenuItem;
-import com.alibaba.fastjson.JSONObject;
-import com.mob.tools.utils.BitmapHelper;
-import com.nostra13.universalimageloader.core.ImageLoader;
-import com.nostra13.universalimageloader.core.assist.FailReason;
-import com.nostra13.universalimageloader.core.assist.ImageLoadingListener;
-import com.xyc.wyatt.dao.RunRecordDao;
-import com.xyc.wyatt.dao.UserDao;
-import com.xyc.wyatt.domain.RunRecord;
-import com.xyc.wyatt.domain.User;
-import com.xyc.wyatt.manager.CallBack;
-import com.xyc.wyatt.manager.RunRecordManager;
 import com.xyc.wyatt.manager.UserManager;
 import com.xyc.wyatt.util.BitmapUtil;
-import com.xyc.wyatt.util.FileUtils;
 import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.util.JsonUtil;
 import com.xyc.wyatt.util.WTContant;
 import com.xyc.wyatt.util.WTUtil;
 import com.xyc.wyatt.view.RoundedImageView;
+
+import java.io.File;
+import java.io.IOException;
+
+import cn.bmob.v3.listener.UpdateListener;
 
 public class UserInfoActivity extends BaseSherlockActivity implements
 		OnClickListener {

@@ -1,22 +1,13 @@
 package com.xyc.wyatt;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
 
-import cn.bmob.v3.listener.FindListener;
-
-import com.actionbarsherlock.view.Window;
-import com.xyc.wyatt.domain.RunRecord;
-import com.xyc.wyatt.manager.RunRecordManager;
 import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.util.WTContant;
 import com.xyc.wyatt.view.RunCaChartView;
 import com.xyc.wyatt.view.RunDistanceChartView;
 import com.xyc.wyatt.view.RunSpeedChartView;
-
-import android.os.Bundle;
-import android.view.View;
 
 public class RunningRecorderActivity extends BaseActivity {
 

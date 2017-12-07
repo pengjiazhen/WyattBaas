@@ -33,33 +33,23 @@
    
     <style name="IndeterminateProgress" parent="@style/WyattProgressActionBar" />
 
-    <style name="MySherockTheme" parent="Theme.Sherlock.Light">
-        <item name="actionBarStyle">@style/Widget.Wyatt.ActionBar</item>
-        <item name="android:actionBarStyle">@style/Widget.Wyatt.ActionBar</item>
+    <style name="MySherockTheme" parent="android:Theme.Light">
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:homeAsUpIndicator">@drawable/actionbar_back_normal</item>
-        <item name="homeAsUpIndicator">@drawable/actionbar_back_normal</item>
     </style>
-
-    <style name="MyHomeSherockTheme" parent="Theme.Sherlock.Light">
-        <item name="actionBarStyle">@style/Widget.Wyatt.ActionBar</item>
-        <item name="android:actionBarStyle">@style/Widget.Wyatt.ActionBar</item>
+    <style name="MyHomeSherockTheme" parent="android:Theme.Light">
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:homeAsUpIndicator">@drawable/sliding_menu_icon</item>
-        <item name="homeAsUpIndicator">@drawable/sliding_menu_icon</item>
     </style>
     <!-- 标题栏的样式 -->
-    <style name="Widget.Wyatt.ActionBar" parent="Widget.Sherlock.ActionBar.Solid">
+    <style name="Widget.Wyatt.ActionBar" parent="android:Widget">
         <item name="android:background">@drawable/bg_title_bar</item>
         <item name="android:backgroundStacked">@drawable/bg_title_bar</item>
         <item name="android:backgroundSplit">@drawable/bg_title_bar</item>
-        <item name="android:titleTextStyle">@style/Widget.Wyatt.ActionBar.Title</item>
         <item name="android:displayOptions">showTitle</item>
         <item name="android:indeterminateProgressStyle">@style/IndeterminateProgress</item>
     </style>
 
     <!-- 标题栏的标题样式 -->
-    <style name="Widget.Wyatt.ActionBar.Title" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    <style name="Widget.Wyatt.ActionBar.Title">
         <item name="android:textColor">#fff</item>
         <item name="android:gravity">center</item>
     </style>

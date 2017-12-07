@@ -1,35 +1,18 @@
 package com.xyc.wyatt;
 
-import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
-import android.util.Log;
-import android.view.MotionEvent;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuItem;
-import com.actionbarsherlock.view.MenuItem.OnMenuItemClickListener;
-import com.xyc.wyatt.util.DensityUtil;
-import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.view.SlipView;
-import com.xyc.wyatt.view.SlipView.OnMenuCloseListener;
-import com.xyc.wyatt.view.SlipView.OnMenuOpenListener;
-import com.xyc.wyatt.view.SlipView.OnMenuSlipingListener;
 
 /**
  * 所有三级以上Activity的基类
@@ -37,7 +20,7 @@ import com.xyc.wyatt.view.SlipView.OnMenuSlipingListener;
  * @author pengjiazhen
  *
  */
-public abstract class BaseSherlockActivity extends SherlockActivity {
+public abstract class BaseSherlockActivity extends Activity {
 	private final String TAG = "BaseActivity";
 
 	protected Context mContext;
@@ -112,21 +95,21 @@ public abstract class BaseSherlockActivity extends SherlockActivity {
 
 	public void setActionBar(CharSequence title, boolean homeBackEnable,
 			boolean showCustomEnable, View customView) {
-		if (customView == null) {
-			getSupportActionBar().setCustomView(R.layout.main_action_bar);
+		/*if (customView == null) {
+			getActionBar().setCustomView(R.layout.main_action_bar);
 		} else {
-			getSupportActionBar().setCustomView(customView);
+			getActionBar().setCustomView(customView);
 		}
-		getSupportActionBar().setDisplayShowCustomEnabled(showCustomEnable);
-		getSupportActionBar().setDisplayShowTitleEnabled(true);
+		getActionBar().setDisplayShowCustomEnabled(showCustomEnable);
+		getActionBar().setDisplayShowTitleEnabled(true);
 		// getSupportActionBar().setIcon(
 		// getResources().getDrawable(R.drawable.run_man_48));
 		// getSupportActionBar().setLogo(
 		// getResources().getDrawable(R.drawable.head_image_1));
-		getSupportActionBar().setTitle(title);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(homeBackEnable);
-		getSupportActionBar().setBackgroundDrawable(
-				getResources().getDrawable(R.drawable.bg_title_bar));
+		getActionBar().setTitle(title);
+		getActionBar().setDisplayHomeAsUpEnabled(homeBackEnable);
+		getActionBar().setBackgroundDrawable(
+				getResources().getDrawable(R.drawable.bg_title_bar));*/
 
 	}
 
@@ -136,7 +119,7 @@ public abstract class BaseSherlockActivity extends SherlockActivity {
 	 * @param title
 	 */
 	public void changeActionBarTitle(String title) {
-		getSupportActionBar().setTitle(title);
+		getActionBar().setTitle(title);
 	}
 
 	/**
@@ -161,7 +144,7 @@ public abstract class BaseSherlockActivity extends SherlockActivity {
 		}
 
 		// 子类需要复写
-		getSupportMenuInflater().inflate(getOptionsMenu(), menu);
+		getMenuInflater().inflate(getOptionsMenu(), menu);
 		return super.onCreateOptionsMenu(menu);
 	}
 
@@ -221,14 +204,14 @@ public abstract class BaseSherlockActivity extends SherlockActivity {
 	 * 显示actionbar的progress
 	 */
 	protected void showProgress() {
-		setSupportProgressBarIndeterminateVisibility(true);
+
 	}
 
 	/**
 	 * 让actionbar的progress消失
 	 */
 	protected void dismissProgress() {
-		setSupportProgressBarIndeterminateVisibility(false);
+
 	}
 	/**
 	 * 分享数据到微信好友
@@ -240,5 +223,8 @@ public abstract class BaseSherlockActivity extends SherlockActivity {
 		intent.setType("text/plain");
 		intent.putExtra(Intent.EXTRA_TEXT, text);
 		startActivity(intent);
+	}
+
+	private class OnMenuItemClickListener {
 	}
 }

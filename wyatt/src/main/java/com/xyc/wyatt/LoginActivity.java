@@ -1,5 +1,43 @@
 package com.xyc.wyatt;
 
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.text.InputType;
+import android.util.DisplayMetrics;
+import android.view.Gravity;
+import android.view.KeyEvent;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.View.OnTouchListener;
+import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.PopupWindow;
+import android.widget.PopupWindow.OnDismissListener;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.xyc.wyatt.dao.UserDao;
+import com.xyc.wyatt.domain.User;
+import com.xyc.wyatt.manager.NetMangaer;
+import com.xyc.wyatt.manager.UserManager;
+import com.xyc.wyatt.util.GloableValue;
+import com.xyc.wyatt.util.WTContant;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,57 +46,7 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.microedition.khronos.opengles.GL;
-
 import cn.bmob.v3.listener.FindListener;
-
-import com.actionbarsherlock.view.MenuItem;
-import com.alibaba.fastjson.JSONObject;
-import com.xyc.wyatt.dao.RunRecordDao;
-import com.xyc.wyatt.dao.UserDao;
-import com.xyc.wyatt.dao.WTDBHelper;
-import com.xyc.wyatt.domain.RunRecord;
-import com.xyc.wyatt.domain.User;
-import com.xyc.wyatt.manager.CallBack;
-import com.xyc.wyatt.manager.NetMangaer;
-import com.xyc.wyatt.manager.RunRecordManager;
-import com.xyc.wyatt.manager.UserManager;
-import com.xyc.wyatt.net.WTNetPost;
-import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.util.JsonUtil;
-import com.xyc.wyatt.util.WTContant;
-
-import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
-import android.content.Context;
-import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.text.InputType;
-import android.util.DisplayMetrics;
-import android.util.Log;
-import android.view.Gravity;
-import android.view.KeyEvent;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.WindowManager;
-import android.view.View.OnClickListener;
-import android.view.View.OnTouchListener;
-import android.view.Window;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.PopupWindow;
-import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.PopupWindow.OnDismissListener;
 
 public class LoginActivity extends BaseSherlockActivity implements
 		OnClickListener, OnTouchListener, OnItemClickListener,

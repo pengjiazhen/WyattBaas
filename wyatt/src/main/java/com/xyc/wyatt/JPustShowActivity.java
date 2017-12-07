@@ -1,13 +1,13 @@
 package com.xyc.wyatt;
 
-import com.actionbarsherlock.view.MenuItem;
 
-import cn.jpush.android.api.JPushInterface;
-import android.app.Activity;
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.TextView;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.TextView;
+
+import cn.jpush.android.api.JPushInterface;
 
 public class JPustShowActivity extends BaseSherlockActivity {
 

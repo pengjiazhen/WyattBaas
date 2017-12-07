@@ -1,33 +1,25 @@
 package com.xyc.wyatt;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import cn.bmob.v3.listener.UpdateListener;
-
-import com.actionbarsherlock.view.MenuItem;
-import com.alibaba.fastjson.JSONObject;
-import com.xyc.wyatt.dao.UserDao;
-import com.xyc.wyatt.manager.CallBack;
-import com.xyc.wyatt.manager.UserManager;
-import com.xyc.wyatt.util.GloableValue;
-import com.xyc.wyatt.util.WTContant;
-
 import android.content.Intent;
-import android.database.DataSetObserver;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.xyc.wyatt.manager.UserManager;
+import com.xyc.wyatt.util.GloableValue;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.bmob.v3.listener.UpdateListener;
 
 public class UserInfoEditActivity extends BaseSherlockActivity {
 	private ListView lv_user_info;

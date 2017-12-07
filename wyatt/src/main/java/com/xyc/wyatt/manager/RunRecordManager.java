@@ -36,7 +36,8 @@ public class RunRecordManager {
 	public static void getRunRrcord(Context context, String userName,
 			FindListener<RunRecord> callback) {
 		BmobQuery<RunRecord> bq = new BmobQuery<RunRecord>();
-		bq.addWhereContains("userName", userName);
+		//bq.addWhereContains("userName", userName);
+		bq.addWhereEqualTo("userName", userName);
 		bq.order("createdAt");
 		boolean isCache = bq.hasCachedResult(context, RunRecord.class);
 		if (isCache) {// --此为举个例子，并不一定按这种方式来设置缓存策略
@@ -69,7 +70,7 @@ public class RunRecordManager {
 	public static void getRunRrcordByObjectId(Context context, String objectId,
 			FindListener<RunRecord> callback) {
 		BmobQuery<RunRecord> bq = new BmobQuery<RunRecord>();
-		bq.addWhereContains("objectId", objectId);
+		bq.addWhereEqualTo("objectId", objectId);
 		bq.findObjects(context, callback);
 	}
 
@@ -87,8 +88,9 @@ public class RunRecordManager {
 				files[0].getPath(), new UploadListener() {
 					@Override
 					public void onError(int arg0, String arg1) {
-						Toast.makeText(context, "保存数据失败", 0).show();
+						Toast.makeText(context, "截图保存失败", Toast.LENGTH_SHORT).show();
 						Log.e("runRecordManager", arg1);
+						//保存，不管图片是否保存成功
 					}
 
 					@Override

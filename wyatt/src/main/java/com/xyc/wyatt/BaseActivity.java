@@ -1,10 +1,9 @@
 package com.xyc.wyatt;
 
-import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -13,26 +12,18 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
-import android.view.MotionEvent;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnTouchListener;
-import android.view.WindowManager;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuItem;
-import com.actionbarsherlock.view.MenuItem.OnMenuItemClickListener;
-import com.xyc.wyatt.domain.WTimePattern;
-import com.xyc.wyatt.util.DensityUtil;
 import com.xyc.wyatt.util.GloableValue;
 import com.xyc.wyatt.util.WTContant;
 import com.xyc.wyatt.util.WTUtil;
@@ -50,7 +41,7 @@ import com.xyc.wyatt.view.XListView.IXListViewListener;
  * @author pengjiazhen
  *
  */
-public class BaseActivity extends SherlockActivity implements OnClickListener {
+public class BaseActivity extends Activity implements OnClickListener {
 	private final String TAG = "BaseActivity";
 
 	protected Context mContext;
@@ -267,17 +258,17 @@ public class BaseActivity extends SherlockActivity implements OnClickListener {
 	}
 
 	public void setActionBar(CharSequence title, boolean homeBackEnable) {
-		getSupportActionBar().setCustomView(R.layout.main_action_bar);
-		getSupportActionBar().setDisplayShowCustomEnabled(false);
-		getSupportActionBar().setDisplayShowTitleEnabled(true);
+		/*getActionBar().setCustomView(R.layout.main_action_bar);
+		getActionBar().setDisplayShowCustomEnabled(false);
+		getActionBar().setDisplayShowTitleEnabled(true);
 		// getSupportActionBar().setIcon(
 		// getResources().getDrawable(R.drawable.run_man_48));
 		// getSupportActionBar().setLogo(
 		// getResources().getDrawable(R.drawable.head_image_1));
-		getSupportActionBar().setTitle(title);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(homeBackEnable);
-		getSupportActionBar().setBackgroundDrawable(
-				getResources().getDrawable(R.drawable.bg_title_bar));
+		getActionBar().setTitle(title);
+		getActionBar().setDisplayHomeAsUpEnabled(homeBackEnable);
+		getActionBar().setBackgroundDrawable(
+				getResources().getDrawable(R.drawable.bg_title_bar));*/
 
 	}
 
@@ -287,7 +278,7 @@ public class BaseActivity extends SherlockActivity implements OnClickListener {
 	 * @param title
 	 */
 	public void changeActionBarTitle(String title) {
-		getSupportActionBar().setTitle(title);
+		getActionBar().setTitle(title);
 	}
 
 	/**
@@ -312,7 +303,7 @@ public class BaseActivity extends SherlockActivity implements OnClickListener {
 		}
 
 		// 子类需要复写
-		getSupportMenuInflater().inflate(getOptionsMenu(), menu);
+		getMenuInflater().inflate(getOptionsMenu(), menu);
 		return super.onCreateOptionsMenu(menu);
 	}
 
@@ -635,14 +626,16 @@ public class BaseActivity extends SherlockActivity implements OnClickListener {
 	 * 显示actionbar的progress
 	 */
 	protected void showProgress() {
-		setSupportProgressBarIndeterminateVisibility(true);
+		//setSupportProgressBarIndeterminateVisibility(true);
 	}
 
 	/**
 	 * 让actionbar的progress消失
 	 */
 	protected void dismissProgress() {
-		setSupportProgressBarIndeterminateVisibility(false);
+		//setSupportProgressBarIndeterminateVisibility(false);
 	}
 
+	private class OnMenuItemClickListener {
+	}
 }

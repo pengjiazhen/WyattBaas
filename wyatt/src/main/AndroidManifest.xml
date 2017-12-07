@@ -73,7 +73,7 @@
         android:theme="@style/MyHomeSherockTheme">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="DX3id6fxFETBxcw4rpFzHIK3"/>
+            android:value="xy9fgjRA5l0nQIL4DGllGAGaOpvKUuVm"/>
 
         <service
             android:name="com.baidu.location.f"
